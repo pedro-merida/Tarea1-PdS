@@ -27,7 +27,7 @@ while (True):
 
     if (opcion_main == "1"):
         hora_actual = obtener_hora()
-        log.write(hora_actual + ": Se escojio introducir un texto\n")
+        log.write(hora_actual + ": Se escogio introducir un texto\n")
         texto = input("\nIntroduzca el texto que quiera ingresar: ")
         hora_actual = obtener_hora()
         log.write(hora_actual + ": Se introdujo el texto: " + texto + "\n")
@@ -35,7 +35,7 @@ while (True):
         print("\nEl texto se agrego exitosamente")
     elif (opcion_main == "2"):
         hora_actual = obtener_hora()
-        log.write(hora_actual + ": Se escojio imprimir un texto\n")
+        log.write(hora_actual + ": Se escogio imprimir un texto\n")
         opcion_text = ""
         while (opcion_text != "No"):
             if (opcion_text == "Si"):
@@ -80,14 +80,14 @@ while (True):
                 log.write(hora_actual + ": Se escribio \"Volver\" al momento de seleccionar el primer texto\n")
                 break
             hora_actual = obtener_hora()
-            log.write(hora_actual + ": Se escojio el texto " + opcion_comparar1 + " como primer texto a comparar\n")
+            log.write(hora_actual + ": Se escogio el texto " + opcion_comparar1 + " como primer texto a comparar\n")
             opcion_comparar2 = input("Seleccione el segundo texto a comparar (Escriba \"Volver\" para salir): ")
             if (opcion_comparar2 == "Volver"):
                 hora_actual = obtener_hora()
                 log.write(hora_actual + ": Se escribio \"Volver\" al momento de seleccionar el primer texto\n")
                 break
             hora_actual = obtener_hora()
-            log.write(hora_actual + ": Se escojio el texto " + opcion_comparar2 + " como segundo texto a comparar\n")
+            log.write(hora_actual + ": Se escogio el texto " + opcion_comparar2 + " como segundo texto a comparar\n")
             try:
                 if ((int(opcion_comparar1) > tamaño_cola) or (int(opcion_comparar2) > tamaño_cola)):
                     print("\nUna o ambas opciones son invalidas, porfavor seleccione una opcion mostrada en pantalla")
