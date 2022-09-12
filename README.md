@@ -15,7 +15,7 @@ Nombre: Pedro Mérida Álvarez / Rol: 201773583-K
   Luego seguir las instrucciones que aparecen en pantalla.
 
 ### Como contribuir:
-- De momento, no se tienen planes de continuar ni mantener este proyecto, por lo que el lector puede libremente realizar un fork del código y aportar de cualquier manera.
+- De momento, no se tienen planes de continuar ni mantener este proyecto, por lo que el lector puede libremente realizar un fork del repositorio y aportar de cualquier manera.
 
 ### Licencia:
 - Copyright (c) 2022 Pedro Dante Mérida Álvarez
