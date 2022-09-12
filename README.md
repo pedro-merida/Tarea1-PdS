@@ -1,4 +1,4 @@
-Nombre: Pedro Mérida Álvarez   Rol: 201773583-K
+Nombre: Pedro Mérida Álvarez / Rol: 201773583-K
 
 ### Descripcion:
 - Tarea 1 del ramo Prueba de Software (Validación y Verificación). Al ejecutar este codigo se pueden ingresar textos a una pila de textos, encontrar el texto mas largo y mas corto, imprimir cualquiera de los textos de la pila y comparar largos entre 2 textos de la pila.
